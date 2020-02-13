@@ -1,2 +1,18 @@
 #+TITLE: a simple pomodoro tool on linux
 
+* Defaults
+Default value for:
+- work interval(=-w=): 25m
+- short break(=-s=): 5m
+- long break(=-l=): 15m
+- cycles before long break(=-n=): 5
+
+to run with custom value, for example:
+#+BEGIN_SRC sh
+  ./pomodoro.sh -l 30m -n 4
+#+END_SRC
+
+* Usage
+1. run =pomodoro.sh=
+2. a message box pops out, asking you to focus. click OK and timer start
+3. after 25m, it asks you to relax. click OK and timer start
